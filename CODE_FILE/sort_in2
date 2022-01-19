@@ -1,0 +1,36 @@
+;5 5 4 3 2 1
+// reg[0]=0 reg[31]=1
+// reg[1]:i
+// reg[2]:j
+// reg[5]=len-1-i
+// reg[6] flag
+// reg[7] arr[j]
+// reg[8] arr[j+1]
+
+            ;reg[4]=len-1
+lw 0 4 0    ;reg[4]=mem[0] reg[4]=len
+subu 4 31 4 ;reg[4]=reg[4]-reg[31] reg[4]=len-1
+
+addu 0 0 1;reg[1]=0
+icheck:
+slt 1 4 6
+beq 0 6  i_end;走这个是0 就是不小于
+addu 0 0 2;reg[2]=0;
+jcheck: subu 4 1 5;reg[5]=reg[4]-reg[1]
+slt 2 5 6
+beq 0 6 j_end
+lw  2   7  0
+lw  2   8  1
+slt 8 7 6
+beq 6 0  if_end;走这个是reg[6]=0 :reg[8]>=reg[7] arr[j]<arr[j+1]
+;swap(arr[j],arr[j])
+sw  2 7 1
+sw  2 8 0
+if_end:
+addiu 2 2 1
+jmp jcheck
+j_end:
+addiu 1 1 1
+jmp icheck
+i_end:
+
