@@ -8,7 +8,7 @@
 
 然后写了一段排序程序（冒泡），将内存中的数据排序。最后上龙芯的板子成功运行。
 
-![image-20220119125328049](C:\Users\梁子超\AppData\Roaming\Typora\typora-user-images\image-20220119125328049.png)
+![image-20220119125328049](https://github.com/Chantec/photo/blob/master/cpu_%E4%B8%8A%E7%89%88.png)
 
 ### ~
 
