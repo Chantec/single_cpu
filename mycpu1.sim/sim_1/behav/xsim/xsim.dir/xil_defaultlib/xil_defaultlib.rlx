@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+F:/vivado_workspace/mycpu1/mycpu1.gen/sources_1/ip/data_ram/sim/data_ram.v,1637045198,verilog,,F:/vivado_workspace/mycpu1/mycpu1.gen/sources_1/ip/my_rom/sim/my_rom.v,,data_ram,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.gen/sources_1/ip/inst_rom/sim/inst_rom.v,1637062872,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/adder.v,,inst_rom,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.gen/sources_1/ip/my_ram/sim/my_ram.v,1638873801,verilog,,F:/vivado_workspace/mycpu1/mycpu1.gen/sources_1/ip/my_rom/sim/my_rom.v,,my_ram,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.gen/sources_1/ip/my_rom/sim/my_rom.v,1637633588,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/adder.v,,my_rom,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sim_1/new/tb_central.v,1637568511,verilog,,,,tb_central,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/adder.v,1637044522,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/alu.v,,adder,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/alu.v,1637565302,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/central.v,,alu,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/central.v,1639836363,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/control.v,,central,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/control.v,1638873938,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/my_data_ram.v,,control,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/my_data_ram.v,1638874130,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/my_inst_rom.v,,my_data_ram,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/my_inst_rom.v,1637542232,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/regfile.v,,my_inst_rom,,,,,,,,
+F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/regfile.v,1637568301,verilog,,F:/vivado_workspace/mycpu1/mycpu1.srcs/sim_1/new/tb_central.v,,regfile,,,,,,,,

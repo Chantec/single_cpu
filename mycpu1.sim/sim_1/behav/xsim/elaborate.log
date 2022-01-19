@@ -1,0 +1,25 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 277fd1edfd1a473da80a64d08d46d57a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_central_behav xil_defaultlib.tb_central xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 5 for port 'addr' [F:/vivado_workspace/mycpu1/mycpu1.srcs/sources_1/new/central.v:149]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.my_rom
+Compiling module xil_defaultlib.my_inst_rom
+Compiling module xil_defaultlib.control
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.alu
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="a...
+Compiling module xil_defaultlib.my_ram
+Compiling module xil_defaultlib.my_data_ram
+Compiling module xil_defaultlib.central
+Compiling module xil_defaultlib.tb_central
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_central_behav

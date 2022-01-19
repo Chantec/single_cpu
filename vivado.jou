@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Nov 21 22:27:33 2021
+# Process ID: 13876
+# Current directory: F:/vivado_workspace/mycpu1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20128 F:\vivado_workspace\mycpu1\mycpu1.xpr
+# Log file: F:/vivado_workspace/mycpu1/vivado.log
+# Journal file: F:/vivado_workspace/mycpu1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/vivado_workspace/mycpu1/mycpu1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_simulation
